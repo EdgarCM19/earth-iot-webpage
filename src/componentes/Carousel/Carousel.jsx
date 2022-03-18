@@ -6,7 +6,8 @@ import { CarouselContainer,
   CarouselText,
   CarouselTitle,
   RightArrowButton, 
-  LeftArrowButton } from './CarouselElements'
+  LeftArrowButton, 
+  CarouselSubtitle} from './CarouselElements'
 
 import { FiArrowRight, FiArrowLeft } from 'react-icons/fi';
 import { useState } from 'react';
@@ -17,12 +18,12 @@ const Carousel = ({ data }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const nextIndex = () => {
-    const newIndex = selectedIndex + 1 === carouselData.length ? 0 : selectedIndex + 1;
+    const newIndex = selectedIndex + 1 === data.length ? 0 : selectedIndex + 1;
     setSelectedIndex(newIndex);
   }
 
   const prevIndex = () => {
-    const newIndex = selectedIndex === 0 ? carouselData.length - 1 : selectedIndex - 1;
+    const newIndex = selectedIndex === 0 ? data.length - 1 : selectedIndex - 1;
     setSelectedIndex(newIndex);
   }
 
@@ -33,6 +34,7 @@ const Carousel = ({ data }) => {
         <CarouselItem  id={e.id} className={e.id === selectedIndex ? "showed" : ""}>
           <CarouselInfo>
            <CarouselTitle>{e.title}</CarouselTitle>
+            <CarouselSubtitle>{e.subtitle}</CarouselSubtitle>
             <CarouselText>{e.content}</CarouselText>
           </CarouselInfo>
           <CarouselImage src={e.img}/>

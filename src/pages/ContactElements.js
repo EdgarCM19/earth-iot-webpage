@@ -157,6 +157,10 @@ export const RoundedLink = styled.a`
     height: 48px;
     transition: all .3s ease-in-out;
     margin-right: 1em;
+    &, &::hover, &::focus, &:active {
+        text-decoration: none;
+        color: #fff;
+    }
 
     &:hover {
         background-color: #fff;

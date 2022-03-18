@@ -19,6 +19,9 @@ export const FooterContainer = styled.div`
     & span {
         font-family: 'Montserrat', sans-serif;
         font-size: .75em;
+        color: #aaa;
+        max-width: 90%;
+        text-align: center;
         margin-top: .75em;
     }
 `;
@@ -99,6 +102,10 @@ export const RoundedLink = styled.a`
     height: 3em;
     transition: all .3s ease-in-out;
     margin-right: 1em;
+
+    & * {
+        color: #fff;
+    }
 
     &:hover {
         background-color: #5CBF11;

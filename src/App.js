@@ -39,13 +39,14 @@ export default function App() {
 
     //Todo:
     // [x] Footer
-    // [ ] Poner las redes
+    // [x] Poner las redes
     // [ ] Revisar ortografia
     // [ ] Cambiar lo del correo.
-    // [ ] Agregar las imagenes
-    // [ ] Agregar el subtitle en carousel
-    // [ ] Buscar y cambiar iconos
+    // [x] Agregar las imagenes
+    // [x] Agregar el subtitle en carousel
+    // [-] Buscar y cambiar iconos
 
+    // useTitle('Earth-IoT');
     return (
         <>
         <Routes>

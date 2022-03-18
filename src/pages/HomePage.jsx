@@ -10,13 +10,15 @@ const HomePage = () => {
             <HeaderReveal />
             <HomeSection 
                 // position="right"
+                linkTo="/projects"
+                img="/images/resume1.jpeg"
                 title="Conecta tu siembra, cosecha resultados"
                 text="A la vanguardia en soluciones de agricultura de precisión IoT, seguimiento satelital y producción de alimentos más sustentables y sostenible"
             />
             <HomeSection 
                 position="right"
-                // linkTo="/services/#test"
                 linkTo="/services"
+                img="/images/resume2.jpeg"
                 title="Vigila tu cultivo, reduce costos y mejora el rendimiento"
                 text="A la vanguardia en soluciones de agricultura de precisión IoT, seguimiento satelital y producción de alimentos más sustentables y sostenible"
             />

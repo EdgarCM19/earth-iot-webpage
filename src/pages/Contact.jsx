@@ -25,6 +25,7 @@ import {
     SubmitButton} from "./ContactElements";
 
 import { FiPhone, FiMail, FiFacebook, FiInstagram, FiTwitter, FiHome } from "react-icons/fi";
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const ContactPage = () => {
 
@@ -64,20 +65,24 @@ const ContactPage = () => {
                         <RoundedLink href="https://www.facebook.com/EARTHIOT">
                             <FiFacebook className="media-icon" size={28}/>
                         </RoundedLink>
-                        <RoundedLink>
+                        <RoundedLink href="https://www.instagram.com/earth.iot/">
                             <FiInstagram className="media-icon" size={28}/>
                         </RoundedLink>
-                        <RoundedLink>
+                        {/* <RoundedLink>
                             <FiTwitter className="media-icon" size={28}/>
-                        </RoundedLink>
+                        </RoundedLink> */}
+                        <RoundedLink href="https://www.linkedin.com/company/earth-iot/"><FaLinkedinIn className="media-icon" size={28} color="#fff"/></RoundedLink>
                     </ContactSocialPanel>
                 </ContactInfoContainer>
                 <ContactFormContainer>
                     <ContactForm 
                         target="_blank" 
                         method="POST"
-                        action="https://formsubmit.co/edgarcm1908@gmail.com"
+                        action="https://formsubmit.co/contacto@earth-iot.com"
                     >
+                        <input type="hidden" name="_cc" value="angeles.marcial@earth-iot.com" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_template" value="table" />
                         <FormLabel>Nombre</FormLabel>
                         <FormInputText 
                             id="name" 

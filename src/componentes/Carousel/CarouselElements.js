@@ -45,7 +45,7 @@ export const CarouselInfo = styled.div`
     
     @media screen and (max-width: 768px){
         width: 100%;
-        height: 50%;
+        /* height: 50%; */
     }
 `;
 
@@ -56,12 +56,28 @@ export const CarouselTitle = styled.h2`
     text-transform: uppercase;
     text-align: left;
     width: 90%;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     letter-spacing: .5em;
 
     @media screen and (max-width: 768px){
         width: 80%;
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+`;
+
+export const CarouselSubtitle = styled.h5`
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 1em;
+    color: #888;
+    width: 90%;
+
+    @media screen and (max-width: 768px){
+        font-size: 1em;
+        width: 80%;
     }
 `;
 
@@ -71,7 +87,7 @@ export const CarouselText = styled.span`
     font-size: 1.25em;
     text-align: left;
     width: 90%;
-    color: #606;
+    color: #aaa;
 
     @media screen and (max-width: 768px){
         width: 80%;

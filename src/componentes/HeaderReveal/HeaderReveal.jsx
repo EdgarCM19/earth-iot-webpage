@@ -16,7 +16,7 @@ const HeaderReveal = () => {
     return (
         <>
             <Start>
-                <StartImage src={image_bg} id="start_img"/>
+                <StartImage src="/images/home.jpeg" id="start_img"/>
                 <StartContent id="start_content">
                     <ContentTitle>Inclusión técnica y tecnológica para crecer</ContentTitle>
                     <ContentSubtitle>Simplificando y facilitando el acceso a asistencia técnica y tecnología disruptiva para lograr una inclusión productiva y financiera de los productores</ContentSubtitle>

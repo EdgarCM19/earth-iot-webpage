@@ -12,19 +12,19 @@ const Footer = () => {
                 <Slogan>Conecta tu siembra, cosecha resultados</Slogan>
                 <BrandInfoContainer>
                     <FooterSocialLinksContainer>
-                        <RoundedLink><FaFacebookF /></RoundedLink>
-                        <RoundedLink><FaLinkedinIn /></RoundedLink>
-                        <RoundedLink><FiInstagram /></RoundedLink>
+                        <RoundedLink href="https://www.facebook.com/EARTHIOT"><FaFacebookF /></RoundedLink>
+                        <RoundedLink href="https://www.linkedin.com/company/earth-iot/"><FaLinkedinIn /></RoundedLink>
+                        <RoundedLink href="https://www.instagram.com/earth.iot/k"><FiInstagram /></RoundedLink>
                     </FooterSocialLinksContainer>
                     <Logo/>
                 </BrandInfoContainer>
             </FooterInfoContainer>
-            <LinksContainer>
+            {/* <LinksContainer>
                 <FooterLink to='privacy-politic'>Politica de privacidad</FooterLink>
                 <span>|</span>
                 <FooterLink to="/contact">Contacto</FooterLink>
-            </LinksContainer>
-            <span>Eart-IoT 2022. Todos los derechos reservados.</span>
+            </LinksContainer> */}
+            <span>EARTH-IOT ANALYTICS TECHNOLOGY S.A.P.I de CV 2022. Todos los derechos reservados.</span>
         </FooterContainer>
     );
 };
