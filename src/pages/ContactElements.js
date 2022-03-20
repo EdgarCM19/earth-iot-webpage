@@ -1,11 +1,27 @@
 import styled from "styled-components";
 
+export const ContactResume = styled.h1`
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    /* color: #aaa; */
+    font-weight: normal;
+    width: 80%;
+    text-align: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 1.25em;
+    }
+`
+
 export const ContactWrapper = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
-    /* padding: 2em 0; */
+    padding: 2em 0;
     height: 100vh;
 
     @media screen and (max-width: 768px){

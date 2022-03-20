@@ -22,7 +22,8 @@ import {
     RadioInput,
     RadioGroup,
     FormTextArea,
-    SubmitButton} from "./ContactElements";
+    SubmitButton,
+    ContactResume} from "./ContactElements";
 
 import { FiPhone, FiMail, FiFacebook, FiInstagram, FiTwitter, FiHome } from "react-icons/fi";
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -43,6 +44,9 @@ const ContactPage = () => {
             <PageHeaderTitle>Contacto</PageHeaderTitle>
         </PageHeader>
         <ContactWrapper>
+        <ContactResume>
+            Somos una empresa mexicana conformada por personas apasionadas por la agricultura, la tecnología y el crecimiento del campo mexicano.<br/><br/>Buscamos apoyar a pequeños y medianos productores para en conjunto aprender e innovar constantemente.
+        </ContactResume>
             <ContactContainer>
                 <ContactInfoContainer>
                     <ContactDataPanel>

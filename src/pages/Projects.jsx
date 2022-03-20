@@ -13,7 +13,7 @@ const ProjectsPage = () => {
         <ProjectsPageWrapper>
             <PageHeader>
                 <PageHeaderImg src={bgImg} />
-                <PageHeaderTitle>Projectos</PageHeaderTitle>
+                <PageHeaderTitle>Proyectos</PageHeaderTitle>
             </PageHeader>
             <Resume>Aprovechamos el valor de las principales tecnologías de tendencia para transforman el mundo en que vivimos apoyando a los productores a crear sistemas productivos más inclusivos y sustentables.</Resume>
             <Carousel data={projectsCarouselData}/>
